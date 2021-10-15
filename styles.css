@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+
+* {
+    font-family: "Courier New",'Noto Sans Mono', monospace;
+}
+header{
+    background-color: #333333;
+    min-width: 600px;
+}
+header img {
+    margin: 10px 0 10px 10%;
+}
+nav {
+    float: right;
+    margin: 16px 10% 16px 0;
+}
+nav a {
+    color: #ff0099;
+    display: inline-block;
+    margin-left: 50px;
+}
+body {
+    background: url('assets/topography.png');
+    height: 100%;
+}
+h2 {
+    color: #ff0099;
+}
+section {
+    margin: 0  10%;
+    line-height: 2;
+}
+dt {
+    font-weight: bold ;
+}
+dd {
+    text-align: justify;
+}
+p {
+    text-align: justify;
+}
+#separator {
+    text-align: center;
+    margin: 50px 50px;
+}
+#techwiki {
+    margin: 40px 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#instset {
+    
+    margin: 40px 40px 40px 10%;
+    font-weight: bold;
+    font-size: x-large;
+}
